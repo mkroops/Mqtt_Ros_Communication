@@ -1,0 +1,5 @@
+<launch>
+    <!-- cmd_vel mqtt bridge -->
+    <node name="mqtt_bridge" pkg="mqtt_ros_bridge" type="cmd_vel.py" output="screen" />
+</launch>
+
